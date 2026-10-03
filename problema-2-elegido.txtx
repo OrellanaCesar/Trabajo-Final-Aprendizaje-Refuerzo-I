@@ -1,0 +1,4 @@
+Titulo: Contención de incendios forestales colocando líneas cortafuego
+Problematica: Un agente decide en qué celda de una grilla colocar una línea cortafuego turno a turno, mientras el fuego se propaga según viento y combustible, para minimizar el área quemada.
+Agente propuesto: DQN con entrada tipo imagen (CNN + DQN, similar a Atari)
+Entorno/Simulador: SimFire + SimHarness (proyecto MITRE Fireline, Python, específicamente diseñado para entrenar agentes de RL).

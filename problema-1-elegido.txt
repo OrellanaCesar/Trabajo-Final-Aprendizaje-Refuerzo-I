@@ -1,0 +1,14 @@
+🚗 Conducción autónoma en una intersección usando highway-env/Gymnasium.
+
+Porque podés plantear exactamente la estructura que pide tu profesor:
+
+Título: Aprendizaje por refuerzo para la toma de decisiones de un vehículo autónomo en una intersección.
+
+Problema:
+Un vehículo autónomo debe atravesar una intersección en presencia de otros vehículos, seleccionando acciones que permitan avanzar de manera eficiente evitando colisiones.
+
+Estado: observaciones de los vehículos cercanos, posición, velocidad, carril, etc.
+
+Acciones: acelerar, desacelerar, mantener velocidad y/o cambiar de carril.
+
+Recompensa: combinación de progreso, velocidad, seguridad y penalización por colisiones.
