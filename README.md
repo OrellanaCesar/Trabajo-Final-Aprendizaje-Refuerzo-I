@@ -74,18 +74,7 @@ La primera celda instala SimFire sola. Una corrida completa (4 agentes × 3 semi
 | `GUARDAR_EN_DRIVE` | Guarda los resultados en Google Drive |
 | `CARGAR_AGENTES_GUARDADOS` | Reconstruye los agentes desde `pesos_*.pt` sin volver a entrenar |
 
-### Como script
 
-`incendios_dqn.py` es el mismo código en formato script (con marcadores `# %%` por celda, compatible con Jupytext). También instala SimFire sola.
-
-## Archivos
-
-| Archivo | Contenido |
-|---|---|
-| `incendios_dqn.ipynb` | Notebook para Colab (sin salidas guardadas) |
-| `incendios_dqn.py` | El mismo código en formato script |
-
-Al correr se genera la carpeta `resultados/` con las curvas de convergencia, la comparativa de agentes, la validación durante el entrenamiento, la evaluación final, los mapas de cada política, `resumen.json`, `curvas_entrenamiento.npz` y los pesos de cada agente (`pesos_*.pt`).
 
 ## Notas técnicas
 
@@ -98,7 +87,7 @@ Al correr se genera la carpeta `resultados/` con las curvas de convergencia, la 
 
 - Grilla chica (16x16), terreno fijo, una sola acción (cortafuego) y 3 semillas por agente.
 - El agente con shaping aprende a imitar el criterio de la heurística, que es justamente lo que premia el bonus; no se demostró que la supere.
-- La instalación de SimFire en Python 3.12 se verificó en un entorno local de 3.12 y en la ejecución de Colab del autor; puede variar con futuras versiones de Colab.
+- La instalación de SimFire en Python 3.12 se verificó en un entorno local de 3.12 y en la ejecución de Colab ; puede variar con futuras versiones de Colab.
 
 ## Referencias
 
